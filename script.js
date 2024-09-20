@@ -23,7 +23,8 @@
  */
 
 /*
- * Prompt 4:
+ * 
+Prompt 4:
  *
  * Create a variable called firstName and assign it to a string of your first
  * name. Create a variable called lastName and assign it to a string of your
@@ -61,6 +62,16 @@ let array3 = [
  *
  * Use the length of the array below to retrieve the second to last item.
  */
+let secondToLastItemArray1 = array1[array1.length - 2];
+console.log(secondToLastItemArray1);  
+
+
+let secondToLastItemArray2 = array2[array2.length - 2][1];
+console.log(secondToLastItemArray2);  
+
+
+let secondToLastItemArray3 = array3[array3.length - 1][1][1][0];
+console.log(secondToLastItemArray3); 
 
 let array4 = ['a', 'b', 'c', 'd', 'e'];
 
@@ -83,3 +94,62 @@ let cathleen = ['Cathleen', 186, 'New York'];
 // Change Cathleen's hometown from New York to "Gotham City".
 
 // Remove "Pittsburgh" from Kristyn's array and add "Oakland".
+
+
+let myFavoriteSong = "sanguine paradice"
+console.log(myFavoriteSong);
+console.log(`My favorite song is ${myFavoriteSong}`);
+
+const firstName = "Moses";  
+let age = 25;  
+let favoriteColor = "green";
+
+console.log(`My name is ${firstName}`);
+console.log(`I am ${age} years old`);
+console.log(`My favorite color is ${favoriteColor}`);
+
+let myNumber = 5;  
+
+console.log(myNumber + 5);  
+console.log(myNumber - 3);  
+console.log(myNumber * 3);  
+console.log(myNumber / 7);  
+console.log(myNumber % 2);
+
+let movies = ["Inception", "The Matrix", "Interstellar", "The Dark Knight"];
+
+console.log(movies[1]);  
+
+movies.unshift("The Shawshank Redemption");
+
+movies.push("Pulp Fiction");
+
+movies.splice(2, 0, "Fight Club");
+
+console.log(movies);
+
+console.log(array1[2]);  
+
+
+console.log(array2[1][1]);  
+
+console.log(array3[1][1][1][0]);
+
+let array = ['item1', 'item2', 'item3', 'item4', 'item5'];
+
+// Retrieve the second-to-last item
+let secondToLastItem = array[array.length - 2]; 
+
+console.log(secondToLastItem);  // This will log "item4"
+
+thom[0] = 'Tom';
+console.log(thom);
+
+karolin[1] = karolin[1] + 1;
+console.log(karolin);
+
+cathleen[2] = 'Gotham City';
+console.log(cathleen);
+
+kristyn[2] = 'Oakland';
+console.log(kristyn);
